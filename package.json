@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "postinstall": "dotnet tool restore",
+        "start": "dotnet fable watch src --sourceMaps --run vite",
+        "build": "dotnet fable src --sourceMaps --run vite build",
+        "serve": "vite serve"
+    },
+    "devDependencies": {
+        "vite": "^4.0.3"
+    },
+    "version": "1.0.0"
+}
