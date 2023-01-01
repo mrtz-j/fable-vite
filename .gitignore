@@ -1,9 +1,12 @@
 # Fable generated files
 .fable
 *.fs.js
+*.fs.js.map
 bundle.js
 temp/**
 fable_modules
+
+public/
 
 # Ionide generated files
 .ionide
