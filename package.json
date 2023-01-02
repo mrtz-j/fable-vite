@@ -4,7 +4,7 @@
         "postinstall": "dotnet tool restore",
         "start": "dotnet fable watch src -s --run vite",
         "build": "dotnet fable src -s --run vite build",
-        "serve": "vite serve"
+        "preview": "vite preview"
     },
     "devDependencies": {
         "vite": "^4.0.3"
